@@ -1,4 +1,5 @@
 {
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "installCommand": "npx --yes pnpm@9.15.0 install --no-frozen-lockfile",
+  "buildCommand": "npx --yes pnpm@9.15.0 run build",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
