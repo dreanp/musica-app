@@ -1,0 +1,11 @@
+{
+  "name": "musica-app",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev:api": "pnpm --filter @musica/api dev",
+    "dev:web": "pnpm --filter @musica/web dev",
+    "ingest": "pnpm --filter @musica/api ingest",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
